@@ -32,3 +32,9 @@ function makeUnsortedArray() {
 var unsortedArray = makeUnsortedArray();
 
 exports.unsorted = unsortedArray;
+
+exports.swap = function (array, val1, val2) {
+  var temp = array[val1];
+  array[val1] = array[val2];
+  array[val2] = temp;
+}
