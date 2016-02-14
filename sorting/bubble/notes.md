@@ -15,3 +15,10 @@ Performance Case:
 Space Complexity Case:
 - Worst: O(1)
 
+Pseudocode example:
+
+```
+loop through each value i in array
+loop through each value from i to array length - 1
+if array[i] is greater than array[i + 1] then swap the values
+```
