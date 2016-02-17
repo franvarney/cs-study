@@ -56,3 +56,23 @@ else if "Smith" is later in book
 else
  give up
 ```
+
+## Part 2
+
+#### Algorithms
+Computer Science is "computational thinking", which can be broken down into
+inputs > algorithms > outputs.
+
+Like the phone book example from last week, you can use divide and conquer
+algorithm to take a attendance like so:
+
+```
+stand up and assign yourself the number 1
+pair off with someone standing, add your numbers together, and adopt the sum as your new number
+one of the pair should sit down; the other goes back to step 2
+```
+
+Which is also am example of parallel processing - where certain problems can be
+solved by using more computers.
+
+If the end count is off, there is a bug in the algorithm.
