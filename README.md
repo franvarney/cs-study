@@ -6,6 +6,36 @@ JavaScript (Node 4+).
 ## Changelog
 A changelog of my knowledge. :)
 
+#### Week of February 22, 2016
+
+##### Code:
+
+- Merge sort, `node sorting/merge/merge`
+- Quick sort, `node sorting/quick/quick`
+- LeetCode problems
+  - #14 Longest Common Prefix, `node leetcode/14-longest-common-prefix/solution`
+  - #59 Spiral Matrix II, `node leetcode/59-spiral-matrix-ii/solution`
+  - #228 Summary Ranges, `node leetcode/228-summary-ranges/solution`
+
+##### Topics and Resources:
+
+  - Backtracking
+    - [Moritz Lenz - Backtracking](http://moritz.faui2k3.org/en/backtracking)
+    - [Wikipedia - Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+  - Binary Trees
+    - [Wikipedia - Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+  - Bitwise Operators
+    - [The Math Forum - Negative Numbers in Binary](http://mathforum.org/library/drmath/view/55924.html)
+    - [UCSB CS - Practice with Bit Operations](https://www.cs.ucsb.edu/~pconrad/cs16/topics/bitOps/)
+  - Dynamic Programming
+    - [HackerEarth - Dynamic Programming I](https://www.hackerearth.com/notes/dynamic-programming-i-1/)
+  - Scalability
+    - [Harvard CS75 - Lecture 9](https://www.youtube.com/watch?v=-W9F__D3oY4&list=PLmhRNZyYVpDmLpaVQm3mK5PY5KB_4hLjE&index=10)
+  - Sorting
+    - [NCZOnline - CS in JS: Quick Sort](https://www.nczonline.net/blog/2012/11/27/computer-science-in-javascript-quicksort/)
+    - [Wikipedia - Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
+    - [Wikipedia - Quick Sort](https://en.wikipedia.org/wiki/Quicksort)
+
 #### Week of February 15, 2016
 
 ##### Code:
@@ -16,7 +46,7 @@ A changelog of my knowledge. :)
 - LeetCode problems
   - #58 Length of Last Word
   - #231 Power of Two
-  - #290 Word Pattern, `leetcode/290-word-pattern/solution`
+  - #290 Word Pattern, `node leetcode/290-word-pattern/solution`
   - #334 Increasing Triplet Subsequence
 
 ##### Topics and Resources:
