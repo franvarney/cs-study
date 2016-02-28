@@ -1,5 +1,7 @@
 const Helpers = require('../../helpers');
 
+console.time('selectionSort');
+
 function selectionSort(array) {
   for (var i = 0; i < array.length - 1; ++i) {
     var min = i;
@@ -16,6 +18,6 @@ function selectionSort(array) {
   return array;
 }
 
-console.time('selectionSort');
 console.log(selectionSort(Helpers.unsorted).toString());
+
 console.timeEnd('selectionSort');

@@ -13,6 +13,4 @@ function insertionSort(array) {
   return array;
 }
 
-console.time('insertionSort');
 console.log(insertionSort(Helpers.unsorted).toString());
-console.timeEnd('insertionSort');

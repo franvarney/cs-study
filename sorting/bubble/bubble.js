@@ -12,6 +12,4 @@ function bubbleSort(array) {
   return array;
 }
 
-console.time('bubbleSort');
 console.log(bubbleSort(Helpers.unsorted).toString());
-console.timeEnd('bubbleSort');
