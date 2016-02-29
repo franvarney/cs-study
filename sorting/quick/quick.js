@@ -1,18 +1,12 @@
 const Helpers = require('../../helpers');
 
-function swap(array, a, b) {
-  var temp = array[a];
-  array[a] = array[b];
-  array[b] = temp;
-}
-
 function partition(array, left, right) {
   var pivot = array[Math.floor((left + right) / 2)];
 
   while (left <= right) {
     while (array[left] < pivot) ++left;
     while (array[right] > pivot) --right;
-    if (left <= right) swap(array, left++, right--);
+    if (left <= right) Helpers.swap(array, left++, right--);
   }
 
   return left;
@@ -30,4 +24,4 @@ function quickSort(array, left, right) {
 }
 
 var unsorted = Helpers.unsorted;
-console.log(quickSort(unsorted, 0, unsorted.length - 1));
+console.log(quickSort(unsorted, 0, unsorted.length - 1).toString());
