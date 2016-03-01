@@ -1,3 +1,5 @@
+const BinarySearchTree = require('./trees/binary-search/binary-search');
+
 exports.swap = function (array, a, b) {
   var temp = array[a];
   array[a] = array[b];
@@ -31,3 +33,15 @@ function makeUnsortedArray() {
 var unsortedArray = makeUnsortedArray();
 
 exports.unsorted = unsortedArray;
+
+exports.initTree = function (array) {
+  if (!array) array = unsortedArray;
+
+  var tree = new BinarySearchTree();
+
+  array.forEach((value) => {
+    tree.add(value);
+  });
+
+  return tree;
+};
