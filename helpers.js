@@ -2,13 +2,14 @@ const BinarySearchTree = require('./trees/binary-search/binary-search');
 
 exports.swap = function (array, a, b) {
   var temp = array[a];
-  array[a] = array[b];
-  array[b] = temp;
+  array[b] = (array[a] = array[b], temp);
 }
 
 function makeSortedArray() {
   var sorted = [];
+
   for (var i = 65; i < 91; ++i) sorted.push(i);
+
   return sorted;
 }
 
@@ -23,8 +24,7 @@ function makeUnsortedArray() {
 
   while (currentIndex) {
     var randomIndex = Math.floor(Math.random() * currentIndex);
-    --currentIndex;
-    exports.swap(arrayCopy, currentIndex, randomIndex);
+    exports.swap(arrayCopy, --currentIndex, randomIndex);
   }
 
   return arrayCopy;
@@ -39,9 +39,7 @@ exports.initTree = function (array) {
 
   var tree = new BinarySearchTree();
 
-  array.forEach((value) => {
-    tree.add(value);
-  });
+  array.forEach((value) => tree.add(value));
 
   return tree;
 };
