@@ -61,5 +61,7 @@ tree.add(7);
    1 3 7
 */
 
+/*
 console.log(JSON.stringify(tree, null, 2));
 console.log('size', tree.size());
+*/

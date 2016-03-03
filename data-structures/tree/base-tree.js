@@ -5,10 +5,6 @@ class Tree {
     this.root = null;
   }
 
-  remove(value) {
-    // TODO
-  }
-
   size() {
     var length = 0;
     this.traverse(() => ++length);
