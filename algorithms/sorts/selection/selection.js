@@ -1,4 +1,4 @@
-const Helpers = require('../../helpers');
+const Helpers = require('../../../helpers');
 
 console.time('selectionSort');
 

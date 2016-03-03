@@ -1,4 +1,4 @@
-const Helpers = require('../../helpers');
+const Helpers = require('../../../helpers');
 
 function partition(array, left, right) {
   var pivot = array[Math.floor((left + right) / 2)];

@@ -1,4 +1,4 @@
-const Helpers = require('../../helpers');
+const Helpers = require('../../../helpers');
 
 function bubbleSort(array) {
   for (var i = 0; i < array.length; i++) {
