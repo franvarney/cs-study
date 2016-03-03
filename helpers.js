@@ -1,4 +1,4 @@
-const BinarySearchTree = require('./trees/binary-search/binary-search');
+const BinarySearchTree = require('./data-structures/tree/binary-search');
 
 exports.swap = function (array, a, b) {
   var temp = array[a];
