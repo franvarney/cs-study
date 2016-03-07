@@ -6,16 +6,34 @@ JavaScript (Node 4+).
 ## Changelog
 A changelog of my knowledge. :)
 
+#### Week of February 29, 2016
+
+##### Code:
+  - Binary search, `node algorithms/searches/binary`
+
+##### Topics and Resources:
+
+  - Probability
+    - [Topcoder - Understanding Probabilities](https://www.topcoder.com/community/data-science/data-science-tutorials/understanding-probabilities/)
+  - Searches
+    - [Wikipedia - Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+  - Tree Traversals
+    - [GeeksForGeeks - Tree Traversals](http://www.geeksforgeeks.org/618/)
+    - [Toronto.edu - DFS](http://www.cs.toronto.edu/~heap/270F02/node36.html)
+    - [UCI - BFS and DFS](https://www.ics.uci.edu/~eppstein/161/960215.html)
+    - [UPenn - Tree Searching](https://www.cis.upenn.edu/~matuszek/cit594-2012/Lectures/31-tree-searching.ppt)
+    - [Wikipedia - Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search)
+
 #### Week of February 22, 2016
 
 ##### Code:
 
-- Merge sort, `node sorting/merge/merge`
-- Quick sort, `node sorting/quick/quick`
+- Merge sort, `node algorithms/sorts/merge`
+- Quick sort, `node algorithms/sorts/quick`
 - LeetCode problems
-  - #14 Longest Common Prefix, `node leetcode/14-longest-common-prefix/solution`
-  - #59 Spiral Matrix II, `node leetcode/59-spiral-matrix-ii/solution`
-  - #228 Summary Ranges, `node leetcode/228-summary-ranges/solution`
+  - #14 Longest Common Prefix, `node solutions/leetcode/14-longest-common-prefix/solution`
+  - #59 Spiral Matrix II, `node solutions/leetcode/59-spiral-matrix-ii/solution`
+  - #228 Summary Ranges, `node solutions/leetcode/228-summary-ranges/solution`
 
 ##### Topics and Resources:
 
@@ -40,13 +58,13 @@ A changelog of my knowledge. :)
 
 ##### Code:
 
-- Insertion sort, `node sorting/insertion/insertion`
-- Selection sort, `node sorting/selection/selection`
-- Binary tree, `node trees/binary-search/binary-search`
+- Insertion sort, `node algorithms/sorts/insertion`
+- Selection sort, `node algorithms/sorts/selection`
+- Binary tree, `node data-structures/trees/binary-search`
 - LeetCode problems
   - #58 Length of Last Word
   - #231 Power of Two
-  - #290 Word Pattern, `node leetcode/290-word-pattern/solution`
+  - #290 Word Pattern, `node solutions/leetcode/290-word-pattern/solution`
   - #334 Increasing Triplet Subsequence
 
 ##### Topics and Resources:
@@ -74,7 +92,7 @@ A changelog of my knowledge. :)
 ##### Code:
 
 - Simple infix calculator (going to do more with this later), `node calculators/infix "5 * 2"`
-- Bubble sort, `node sorting/bubble/bubble`
+- Bubble sort, `node algorithms/sorts/bubble`
 - LeetCode problems
   - #136 Single Number
   - #168 Excel Sheet Column Title
