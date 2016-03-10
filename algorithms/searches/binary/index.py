@@ -9,7 +9,7 @@ def binary_search(arr, target):
 
     # while our array bounds are still valid
     while low <= high:
-        # lets check the middle of the array
+        # lets check the middle of our array bounds (low and high)
         mid = int((high + low) / 2)
         if arr[mid] == target:
             # we found our target
@@ -23,7 +23,7 @@ def binary_search(arr, target):
             # to the right of middle, so lets search from array bounds mid + 1 to high
             low = mid + 1
 
-    # If the bounds are invalid, that means our search has failed, since we check every possible sorted value
+    # If the bounds are invalid, that means our search has failed, since we've checked every possible sorted value
     return -1
 
 if __name__ == "__main__":
