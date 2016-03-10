@@ -1,3 +1,4 @@
+#Python version 3
 __author__ = 'noobcola'
 
 # this function assumes our array is already sorted
