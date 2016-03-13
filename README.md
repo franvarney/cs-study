@@ -6,6 +6,11 @@ JavaScript (Node 4+).
 ## Changelog
 A changelog of my knowledge. :)
 
+#### Week of March 7, 2016
+
+##### Code:
+  - Linear search, `node algorithms/searches/linear`
+
 #### Week of February 29, 2016
 
 ##### Code:
