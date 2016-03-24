@@ -1,6 +1,7 @@
 #Python version 3
 __author__ = 'noobcola'
 
+
 def search(arr, target):
     for i, value in enumerate(arr):
         if target == value:
