@@ -24,11 +24,13 @@ class HashTable {
   _hash(key) {
     if (!key) return new Error('A key is required');
 
-    var hash = 0, i = 0, char;
+    var hash = 0, i = 0;
 
-    for (; i < this.length; ++i) {
-      char = ('' + key).charCodeAt(i);
-      hash = ((hash << 5) - hash) + char;
+    if (typeof key === 'string') key = key.toString();
+
+    for (; i < key.length; ++i) {
+      char = key.charCodeAt(i);
+      hash = (((hash << 5) - hash) + char) % this.capacity;
       hash |= 0; // Convert to 32-bit integer
     }
 
@@ -120,7 +122,7 @@ console.log('hashTable:init', citiesHashTable); // capacity = 4, length = 0
 console.log(citiesHashTable.isEmpty()); // true
 
 // Add 'Chicago' to table
-citiesHashTable.insert(0, 'Chicago');
+citiesHashTable.insert(1, 'Chicago');
 console.log('hashTable:insert', citiesHashTable);
 
 // Check size
@@ -130,9 +132,9 @@ console.log(citiesHashTable.size()); // 1
 console.log(citiesHashTable.isEmpty()); // false
 
 // Add 'San Francisco' and 'Pittsburgh'
-citiesHashTable.insert(1, 'San Francisco');
+citiesHashTable.insert(2, 'San Francisco');
 console.log('hashTable:insert', citiesHashTable); // capacity = 4, length = 2
-citiesHashTable.insert(2, 'Pittsburgh');
+citiesHashTable.insert(3, 'Pittsburgh');
 console.log('hashTable:insert', citiesHashTable); // capacity = 8, length = 3
 
 // Check size
