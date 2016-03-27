@@ -54,8 +54,6 @@ class HashTable {
     this.keys[i] = key;
     this.values[i] = value;
     ++this.length;
-
-    return;
   }
 
   isEmpty() {
@@ -68,7 +66,6 @@ class HashTable {
 
   remove(key) {
     if (!key) return new Error('A key is required');
-    if (!contains(key)) return;
 
     // Find position of key
     var i = this._hash(key);
