@@ -1,11 +1,12 @@
 const Assert = require('assert');
+const Helpers = require('../../../helpers');
 
 function preorderTraversal(root) {
   var items = [];
 
   function preorder(node) {
     if (node) {
-      items.push(node.val);
+      items.push(node.value);
       preorder(node.left);
       preorder(node.right);
     }
@@ -16,21 +17,9 @@ function preorderTraversal(root) {
   return preorder(root);
 };
 
-var tree = {
-  val: 1,
-  left: {
-    val: 5
-  },
-  right: {
-    val: 2,
-    left: {
-      val: 3
-    }
-  }
-}
-
-var results = preorderTraversal(tree);
-Assert.deepEqual(results, [1,5,2,3]);
+var tree = Helpers.initTree([6,2,3,9,1,7]);
+var results = preorderTraversal(tree.root);
+Assert.deepEqual(results, [6,2,1,3,9,7]);
 
 console.log(results);
 
