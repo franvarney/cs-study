@@ -1,5 +1,7 @@
 'use strict';
 
+const Assert = require('assert');
+
 class Queue {
   constructor() {
     this.elements = []; // Might consider a linked list as well
@@ -23,6 +25,8 @@ class Queue {
   }
 }
 
+module.exports = Queue;
+
 function insertAll(array, queue) {
   array.forEach((item) => {
     queue.enqueue(item);
@@ -31,14 +35,12 @@ function insertAll(array, queue) {
 
 var queue = new Queue();
 
-console.log('queue:isEmpty', queue.isEmpty()); // true
+Assert.equal(queue.isEmpty(), true, 'Queue should be empty');
 
 insertAll([1,3,6,8], queue);
-console.log('queue:insert', queue); // 1,3,6,8
 
-queue.dequeue();
-console.log('queue:remove', queue); // 3,6,8
+Assert.deepEqual(queue.elements, [1,3,6,8]);
+Assert.equal(queue.dequeue(), 1);
+Assert.equal(queue.isEmpty(), false, 'Queue should be empty');
+Assert.equal(queue.peek(), 3);
 
-console.log('queue:isEmpty', queue.isEmpty()); // false
-
-console.log('queue:peek', queue.peek()); // 3
