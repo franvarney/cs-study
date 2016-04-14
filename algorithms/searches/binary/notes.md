@@ -23,3 +23,6 @@ if array[middle] is the target return true
 if it's less than the target, let min = middle + 1
 otherwise, max = middle - 1
 ```
+
+## Resources
+- [Wikipedia - Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)

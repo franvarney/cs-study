@@ -27,3 +27,6 @@ put the first value in left in a new array called result if the first value in
   in result
 if left length > 0 then concat left to result otherwise concat right
 ```
+
+### Resources
+- [Wikipedia - Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)

@@ -22,3 +22,6 @@ loop through each value j (i + 1)  to array length - 1
 if array[min] is greater than array[j] then set min to j
 after inner loop completes, swap array[min] and array[j]
 ```
+
+### Resources
+- [Wikipedia - Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)

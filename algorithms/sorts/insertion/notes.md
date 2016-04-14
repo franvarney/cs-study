@@ -18,3 +18,6 @@ loop through each value i in array
 set value j to i
 while j is greater than -1 and array[j - 1] is greater than array[j], swap array[j] and array[j - 1] and decrement j by 1
 ```
+
+### Resources
+- [Wikipedia - Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)

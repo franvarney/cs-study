@@ -24,9 +24,11 @@ _Output_ : A permutation < a<sub>1</sub>',  a<sub>2</sub>', ... a<sub>n</sub>' >
 
 * Manufacturing industries and enterprises use algorithms to utilize their resource properly and yield maximum profit.
 
-### References
+## References
+- [1] [MIT Press - Introduction to Algorithms, CLRS](https://mitpress.mit.edu/books/introduction-algorithms)
+- [2] [Wikipedia - Algorithm](https://en.wikipedia.org/wiki/Algorithm)
 
-[1] [MIT Press - Introduction to Algorithms, CLRS](https://mitpress.mit.edu/books/introduction-algorithms)
-
-[2]
-[Wikipedia - Algorithm](https://en.wikipedia.org/wiki/Algorithm)
+## Resources
+- [Moritz Lenz - Backtracking](http://moritz.faui2k3.org/en/backtracking)
+- [Wikipedia - Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+- [HackerEarth - Dynamic Programming I](https://www.hackerearth.com/notes/dynamic-programming-i-1/)

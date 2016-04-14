@@ -71,4 +71,8 @@ shifted off.
 
 ```
 
-
+## Resources
+- [The Math Forum - Negative Numbers in Binary](http://mathforum.org/library/drmath/view/55924.html)
+- [UCSB CS - Practice with Bit Operations](https://www.cs.ucsb.edu/~pconrad/cs16/topics/bitOps/)
+- [Mozilla - Bitwise Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
+- [StackOverflow - Real World Use Cases of Bitwise Operators](http://stackoverflow.com/questions/2096916/real-world-use-cases-of-bitwise-operators)

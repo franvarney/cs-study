@@ -26,3 +26,7 @@ after the partition is returned, call quickSort(array, left, partition - 1) if l
 or if index greater than right, call quickSort(array, index, right)
 
 ```
+
+### Resources
+- [NCZOnline - CS in JS: Quick Sort](https://www.nczonline.net/blog/2012/11/27/computer-science-in-javascript-quicksort/)
+- [Wikipedia - Quick Sort](https://en.wikipedia.org/wiki/Quicksort)
