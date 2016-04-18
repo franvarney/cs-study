@@ -27,6 +27,8 @@ function insertAll(array, stack) {
   });
 }
 
+module.exports = Stack;
+
 var stack = new Stack();
 
 Assert.equal(stack.isEmpty(), true, 'Stack should be empty');
