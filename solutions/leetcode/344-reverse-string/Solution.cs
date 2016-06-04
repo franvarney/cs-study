@@ -5,10 +5,11 @@ namespace CodeSolution
     {
         public static string ReverseString(string s)
         {
-            char[] charArray = s.ToCharArray();
-            Array.Reverse(charArray);
-            return new string(charArray);
-        }
+            StringBuilder sb = new StringBuilder();
+	    for(int i = s.Length; i > 0; i--){
+	        sb.Append(s[i-1]);
+            }
+	}
         static void Main()
         {
             string x = "Test";
